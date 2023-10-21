@@ -406,5 +406,68 @@ a {
 
 /* footer styles
    ========================================================================== */
+.footer_background {
+  background-color: #EAEAEA; }
+  .footer_background .footer_container {
+    padding-left: 15%;
+    padding-right: 15%;
+    max-width: 1200px;
+    margin: 0 auto; }
+  .footer_background .footer {
+    display: flex;
+    justify-content: space-between;
+    color: var(--Dark-Light, #777);
+    font-family: Lora;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding-top: 60px;
+    padding-bottom: 70px; }
+    .footer_background .footer .footer_logo {
+      width: 30%; }
+      .footer_background .footer .footer_logo .footer_logo__text {
+        margin-bottom: 37px; }
+      .footer_background .footer .footer_logo .footer_logo__contact div {
+        display: flex;
+        align-items: center; }
+        .footer_background .footer .footer_logo .footer_logo__contact div svg {
+          margin-right: 5px; }
+    .footer_background .footer .footer_posts {
+      width: 30%; }
+      .footer_background .footer .footer_posts .footer_posts__head {
+        color: #000;
+        font-family: Marcellus;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+        text-transform: uppercase; }
+      .footer_background .footer .footer_posts .footer_posts_content {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid var(--Grey, #DFDFDF); }
+        .footer_background .footer .footer_posts .footer_posts_content img {
+          margin-right: 15px; }
+        .footer_background .footer .footer_posts .footer_posts_content div p span {
+          color: var(--Dark, #242424);
+          font-family: Marcellus;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 20px;
+          text-transform: uppercase; }
+    .footer_background .footer .footer_stores .footer_stores__head {
+      color: #000;
+      font-family: Marcellus;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 40px;
+      text-transform: uppercase; }
+    .footer_background .footer .footer_stores div {
+      margin-bottom: 10px; }
+    .footer_background .footer .footer_stores a {
+      color: inherit; }
 
 /*# sourceMappingURL=style.css.map */
