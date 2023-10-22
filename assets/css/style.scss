@@ -396,6 +396,11 @@ a {
     text-decoration: none;
 }
 
+body {
+    background-color: #F4F4F4;
+    ;
+}
+
 /* header styles
    ========================================================================== */
 .header__background {
@@ -732,5 +737,163 @@ a {
                 padding: 10px 15px;
             }
         }
+    }
+}
+
+/* feautured products section styles
+   ========================================================================== */
+.products {
+    text-align: center;
+
+    .products__name {
+        color: var(--Gold, #C3935B);
+        font-family: Lora;
+        font-size: 22px;
+        font-style: italic;
+        font-weight: 500;
+        line-height: 25px;
+    }
+
+    .products__head {
+        color: var(--Dark, #242424);
+        font-family: Marcellus;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+    }
+
+    .products__subhead {
+        color: var(--Dark-Light, #777);
+        font-family: Lora;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        margin-bottom: 50px;
+    }
+
+    .products_content {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+
+        .products_content_name {
+
+            .products_content_name__image {
+                position: relative;
+                z-index: 5;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .products_content_name__image2 .products_content_name__head {
+                color: #fff;
+            }
+
+            .products_content_name__image2 .products_content_name__text {
+                color: var(--Grey, #DFDFDF);
+            }
+
+            .products_content_name__head {
+                color: #000;
+                font-family: Lora;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 35px;
+                position: absolute;
+                top: 60%;
+                left: 12%;
+                width: 75%;
+                z-index: 4;
+            }
+
+            .products_content_name__text {
+                color: var(--Dark-Light, #777);
+                font-family: Lora;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 25px;
+                position: absolute;
+                top: 80%;
+                left: 2%;
+                width: 95%;
+                z-index: 3;
+            }
+        }
+
+        .slider {
+            width: 70%;
+
+            .slick-arrow {
+                position: absolute;
+                top: 50%;
+                border: none;
+                cursor: pointer;
+                padding: 0;
+                color: #2c2c2c;
+                font-size: 22px;
+                z-index: 2;
+            }
+
+            .slick-prev {
+                left: 0;
+            }
+
+            .slick-next {
+                right: 0;
+            }
+
+            .products_content_card {
+
+                .products_content_card_self {
+                    position: relative;
+
+                    .products_content_card_self__image {
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+
+                    .products_content_card_self__name {
+                        color: var(--Dark, #242424);
+                        font-family: Marcellus;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 25px;
+                    }
+
+                    .products_content_card_self__catagory {
+                        color: var(--Dark-Light, #777);
+                        text-align: center;
+                        font-family: Lora;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 25px;
+                    }
+
+                    .products_content_card_self__price {
+                        color: var(--Gold, #C3935B);
+                        text-align: center;
+                        font-family: Lora;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 25px;
+                    }
+                }
+            }
+        }
+
     }
 }
