@@ -738,4 +738,112 @@ body {
               font-weight: 700;
               line-height: 16px; }
 
+/* Jewelry Design Blog section styles
+   ========================================================================== */
+.design {
+  margin-bottom: 50px; }
+  .design .design_content {
+    display: flex;
+    justify-content: center !important; }
+    .design .design_content .design_slider {
+      width: 90%; }
+      .design .design_content .design_slider .slick-arrow {
+        position: absolute;
+        top: 50%;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        color: #2c2c2c;
+        font-size: 22px;
+        z-index: 2; }
+      .design .design_content .design_slider .slick-prev {
+        left: 0; }
+      .design .design_content .design_slider .slick-next {
+        right: 0; }
+      .design .design_content .design_slider .design_content_card .design_content_card_image-block {
+        position: relative;
+        padding: 0px 20px; }
+        .design .design_content .design_slider .design_content_card .design_content_card_image-block img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover; }
+        .design .design_content .design_slider .design_content_card .design_content_card_image-block .design_content_card_image-block__date {
+          position: absolute;
+          top: 5%;
+          left: 10%;
+          color: var(--Dark, #242424);
+          text-align: center;
+          font-family: Lora;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 25px;
+          padding: 5px 10px;
+          background-color: #fff;
+          width: 3vw; }
+          .design .design_content .design_slider .design_content_card .design_content_card_image-block .design_content_card_image-block__date span {
+            font-size: 13px;
+            padding-top: -10px;
+            margin-top: -20px; }
+        .design .design_content .design_slider .design_content_card .design_content_card_image-block .design_content_card_image-block__text {
+          position: absolute;
+          top: 93%;
+          left: 28%;
+          color: #FFF;
+          text-align: center;
+          font-family: Lora, serif;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 25px;
+          text-transform: uppercase;
+          background-color: var(--Gold, #C3935B);
+          padding: 0px 5px; }
+      .design .design_content .design_slider .design_content_card .design_content_card__head {
+        color: #000;
+        text-align: center;
+        font-family: Marcellus, serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+        text-transform: uppercase;
+        padding: 0px 20px; }
+      .design .design_content .design_slider .design_content_card .design_content_card_author-block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 20px;
+        margin-bottom: 10px; }
+        .design .design_content .design_slider .design_content_card .design_content_card_author-block div {
+          color: rgba(119, 119, 119, 0.5);
+          text-align: center;
+          font-family: Lora, serif;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 20px;
+          margin-right: 11px; }
+      .design .design_content .design_slider .design_content_card .design_content_card__text {
+        color: var(--Dark-Light, #777);
+        text-align: center;
+        font-family: Lora, serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        padding: 0px 20px; }
+      .design .design_content .design_slider .design_content_card .design_content_card__link {
+        margin-top: 20px; }
+        .design .design_content .design_slider .design_content_card .design_content_card__link a {
+          color: var(--Gold, #C3935B);
+          text-align: center;
+          font-family: Lora;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 25px;
+          text-transform: uppercase;
+          padding: 0px 20px; }
+
 /*# sourceMappingURL=style.css.map */
