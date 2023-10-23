@@ -29,3 +29,13 @@ $(document).ready(function(){
          nextArrow: '<button type="button" class="slick-next">&#10095;</button>',
     });
 });
+
+$(document).ready(function(){
+    $('.carousel-mob').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+         prevArrow: '<button type="button" class="slick-prev">&#10094;</button>',
+         nextArrow: '<button type="button" class="slick-next">&#10095;</button>',
+    });
+});
